@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgba(187, 35, 233, 0.863);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.load {
+    justify-content: space-evenly;
+    display: flex;
+    padding: 0 0.2rem;
+}
+
+.load .loading {
+    background-color: #fff;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 1rem;
+    border-radius: 1.5rem;
+    animation: load 2s ease infinite;
+}
+
+.load .one {
+    animation-delay: 0.2s;
+}
+
+.load .two {
+    animation-delay: 0.3s;
+}
+.load .three {
+    animation-delay: 0.4s;
+} 
+.load .four {
+    animation-delay: 0.5s;
+}
+@keyframes load {
+    0% {
+        height: 3rem;
+        width: 3rem;
+    }
+    50% {
+        height: 2rem;
+        width: 2rem;
+    }
+}
