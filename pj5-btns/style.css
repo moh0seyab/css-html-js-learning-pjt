@@ -35,7 +35,7 @@ a::after {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: bisque;
+    background-color: dodgerblue;
     transform: translateY(-100%);
     transition: all 1s;
 }
